@@ -1,1 +1,15 @@
-
+local plr = game.Players.LocalPlayer
+local newgui = Instance.new("ScreenGui")
+newgui.Parent = plr.PlayerGui
+local newtext = Instance.new("TextLabel")
+newtext.Parent = newgui
+newtext.Text = "Hello World"
+newtext.Position = UDim2.new(0.5,0,0.5,0)
+newtext.AnchorPoint = Vector2.new(0.5,0.5)
+newtext.Size = UDim2.new(0,100,0,50)
+newtext.BackgroundTransparency = 1
+newtext.TextScaled = true
+newtext.Font = Enum.Font.GothamBold
+newtext.TextColor3 = Color3.fromRGB(255,255,255)
+newtext.TextStrokeTransparency = 0.5
+newtext.TextStrokeColor3 = Color3.fromRGB(0,0,0)
