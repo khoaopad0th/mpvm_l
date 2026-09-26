@@ -1,5 +1,6 @@
 {
     "Mod_Name": "Test Mod",
     "Mod_Des": "This Mod Test For Mod System",
+    "Mod_FullDes": "Test Mod Maked For Testing Mod System",
     "Mod_Script": "local plr = game.Players.LocalPlayer\nlocal newgui = Instance.new(\"ScreenGui\")\nnewgui.Parent = plr.PlayerGui\nlocal newtext = Instance.new(\"TextLabel\")\nnewtext.Parent = newgui\nnewtext.Text = \"Hello World\"\nnewtext.Position = UDim2.new(0.5,0,0.5,0)\nnewtext.AnchorPoint = Vector2.new(0.5,0.5)\nnewtext.Size = UDim2.new(0,100,0,50)\nnewtext.BackgroundTransparency = 1\nnewtext.TextScaled = true\nnewtext.Font = Enum.Font.GothamBold\nnewtext.TextColor3 = Color3.fromRGB(255,255,255)\nnewtext.TextStrokeTransparency = 0.5\nnewtext.TextStrokeColor3 = Color3.fromRGB(0,0,0)"
 }
